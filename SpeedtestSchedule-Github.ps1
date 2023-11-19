@@ -25,4 +25,3 @@ if (!(Test-Path $CsvPath)) {
 
 # Append to CSV
 $csvLine | Out-File $CsvPath -Append
-Pause 
